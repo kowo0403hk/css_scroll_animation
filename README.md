@@ -4,6 +4,5 @@ This is a CSS practice project which utilizes the Intersection Observer class to
 
 All credits to Fireship.io (https://www.youtube.com/watch?v=T33NN_pPeNI&t=149s).
 
-## Result
-
+## Video
 https://github.com/kowo0403hk/css_scroll_animation/blob/master/doc/scroll-animation.mp4
