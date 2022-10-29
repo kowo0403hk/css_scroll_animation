@@ -6,12 +6,22 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: #131313;
   color: #ffffff;
-  font-size: 1.5rem;
 }
 
 section {
   display: grid;
   place-items: center;
   align-content: center;
-  min-height: 100vh;
+  min-height: 110vh;
+}
+
+.hidden {
+  opacity: 0;
+  font-size: 1.4rem;
+  transition: all 4s ease;
+}
+
+.show {
+  opacity: 1;
+  font-size: 1.5rem;
 }

@@ -6,9 +6,9 @@ const observer = new IntersectionObserver((entries) => {
     // If we want to have the animation happens only once, then we do not need the else statement. However, if we want the animation to be recurring, we need the else statement.
 
     if (entry.isIntersecting) {
-      entry.classList.add("show");
+      entry.target.classList.add("show");
     } else {
-      entry.classList.remove("show");
+      entry.target.classList.remove("show");
     }
   });
 });
