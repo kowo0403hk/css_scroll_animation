@@ -20,7 +20,7 @@ section {
   font-size: 1.4rem;
   filter: blur(5);
   transform: translateX(-100%);
-  transition: all 3s ease;
+  transition: all 3s;
 }
 
 .show {
@@ -34,4 +34,18 @@ section {
   .hidden {
     transition: none;
   }
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(225, 225, 213, 0.5);
+  border-radius: 15%;
 }

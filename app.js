@@ -17,3 +17,10 @@ const hiddenElements = document.querySelectorAll(".hidden");
 
 // tell the observer what elements to observe
 hiddenElements.forEach((el) => observer.observe(el));
+
+// for staggering animation effect
+const logos = document.querySelectorAll(".logo");
+
+logos.forEach((el, index) => {
+  el.style.transitionDelay = `${200 * (index + 1)}ms`;
+});
