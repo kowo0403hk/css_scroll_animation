@@ -6,5 +6,4 @@ All credits to Fireship.io (https://www.youtube.com/watch?v=T33NN_pPeNI&t=149s).
 
 ## Video
 
-https://user-images.githubusercontent.com/79962776/198834128-081561f9-d943-4f68-be02-a5e39c478945.mp4
-
+https://user-images.githubusercontent.com/79962776/198834172-c206f90f-0714-4f90-9da2-87586024e4da.mp4
